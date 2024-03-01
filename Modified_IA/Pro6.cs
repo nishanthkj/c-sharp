@@ -26,6 +26,7 @@ namespace FloydTriangle
             Console.WriteLine("");
 
             PrintFloydsTriangle(row);
+            PrintFloydsTriangle(row);
 
             Console.ReadKey();
         }

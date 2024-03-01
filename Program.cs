@@ -92,7 +92,7 @@ namespace CSharpTutorials
                         break;
                     case 11:
                         Console.WriteLine("Program 11 : Abstract Class for Calculating the Perimeter");
-                        pro111.ShapeClient.pro11();
+                        pro111.Program111.pro11();
                         break;
                     case 12:
                         Console.WriteLine("Program 12 : Interface for Resizable");
@@ -588,7 +588,7 @@ namespace CSharpTutorials
                 return width + height + Math.Sqrt(Math.Pow(width, 2) + Math.Pow(height, 2));
             }
         }
-        public class ShapeClient
+        public class Program111
         {
             public static void pro11()
             {
@@ -655,7 +655,6 @@ namespace CSharpTutorials
 
             }
         }
-
     }
 }
 
